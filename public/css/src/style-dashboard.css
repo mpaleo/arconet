@@ -1,0 +1,82 @@
+/* General */
+:link:focus, :visited:active, :focus {
+	outline: none !important;
+}
+:link, :link:hover {
+	transition: all .3s ease;
+}
+.dropdown-header > i {
+	font-size: 18px;
+}
+span.input-group-addon:nth-child(3) {
+	border-left: 0px;
+	border-right: 0px;
+}
+.modal-footer {
+	text-align: center;
+}
+.alert {
+	margin-bottom: 0px;
+	display: none;
+}
+
+/* Page content */
+.content-body {
+    margin-top: 80px;
+    display: none;
+}
+.content-header {
+    margin-bottom: 21px;
+}
+.content-header h1 {
+	font-size: 50px;
+}
+
+/* Terminal */
+.terminal {
+	background-color: rgba(0, 0, 0, .9);
+	bottom: -200px;
+	height: 200px;
+	width: 100%;
+	position: fixed;
+	transition: all .3s ease;
+	color: #FFF;
+	padding: 21px;
+	overflow-y: auto;
+}
+
+.terminal-input {
+	background: transparent;
+	border: none;
+	width: 95%;
+}
+
+/* RTV */
+.rtv-container {
+	color: #333;
+	text-align: center;
+	font-size: 25px;
+}
+
+/* Devices */
+.device-panel {
+	margin: 0px;
+}
+
+/* Select */
+.bootstrap-select-searchbox input:focus {
+	box-shadow: none;
+}
+
+/* Data table */
+.paginate_button a {
+	border-radius: 0 !important;
+}
+table.dataTable tbody tr.selected {
+	background-color: #B3B3B3;
+}
+
+/* iCheck override*/
+.icheckbox_square-blue {
+	margin-left: 25px !important;
+}

@@ -1,0 +1,13 @@
+{
+    "name": "project-name",
+    "version": "0.1",
+    "dependencies": {
+        "notify.js": "*",
+        "annyang": "*",
+        "pace": "*",
+        "signet": "*",
+        "jquery-icheck": "*",
+        "jquery-touchswipe": "*"
+    },
+    "private": true
+}
