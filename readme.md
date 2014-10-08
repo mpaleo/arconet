@@ -6,6 +6,7 @@ Arconet is a web application that let you control your devices and some other co
 * Manage your RTVs(Real Time Value)
 * Set-up desktop notifications(browser API) for your RTVs
 * Online terminal to speak(literally) with your devices
+* Terminal command buffer
 * Voice recognition, so for example you can say "Show me the kernel execution result"
 * Speech synthesis, so when the terminal reacts to some singal, he speaks to you
 * Voice command actions can be wrote in pure JavaScript, so you can say "Add five plus ten" and make an action to send 15 to a device
@@ -13,7 +14,12 @@ Arconet is a web application that let you control your devices and some other co
 * Store quick data for each device
 * Store data sets for each device
 * Store shared data across device
+* Queues
 * ...
+
+## Deploy
+You can deploy Arconet in any web server that support Laravel  
+If you want to test and develop, use [Vagrant](http://www.vagrantup.com/) with the Laravel's Homestead box, for more information, check the [docs](http://laravel.com/docs/4.2/homestead)
 
 ### Contributing to Arconet
 Expose any constructive idea and lets work  
